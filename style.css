@@ -1,0 +1,102 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+main{
+    background: #d0d4d4;
+    border-radius: 5px;
+    margin: 30px 8px;
+    padding: 10px;
+    font-family: Arial, Helvetica,sans-serif;
+    color: #333333;
+    text-align: center;
+}
+
+#title{
+    font-size: 2.5rem;
+    padding: 40px 0 0;
+}
+.para-title{
+    padding: 15px;
+}
+
+#img-div{
+    background: #fff;
+    padding: 10px;
+}
+#img-div img{
+    padding: 0 0 10px;
+    max-width: 100%;
+    transition: all .4s ease;
+}
+#img-div img:hover{
+    transform: scale(.95);
+}
+#img-div figcaption{
+    padding: 10px;
+}
+
+#title-list{
+    padding: 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.list-items{
+    text-align: left;
+    max-width: 520px;
+    line-height: 25px;
+    padding: 0 30px 0;
+    margin: 0 auto;
+}
+#citation{
+    text-align: left;
+    max-width: 550px;
+    line-height: 25px;
+    margin: 30px auto 20px;
+    padding: 0 30px 0;
+    font-style: italic;
+}
+#citation footer{
+    padding: 25px 0 40px;
+}
+li{
+    padding: 10px;
+}
+
+li span{
+    font-weight: bold;
+}
+
+footer{
+    position: relative;
+}
+#footer-text{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0 0 10px;
+    position: relative;
+}
+#scroll{
+    position: absolute;
+    cursor: pointer;
+    top: -50px;
+    right: 0;
+    margin: 0 2% 0;
+    font-size: 2rem;
+    color: #477ca7;
+    transition: all .5s ease;
+}
+#scroll:hover{
+    transform: scale(1.2);
+}
+a{
+    color: #0d85e8;
+}
+
+@media screen and (max-width: 500px) {
+    main{
+        margin: 0;
+    }
+}
